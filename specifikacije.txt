@@ -1,0 +1,14 @@
+-Prevodjenje variabli 
+-Pribavljanje koda iz vise datoteka 
+-Osnovne matematicke operacije(Sabiranje i oduzimanje do 2 elementa)
+-Kompatibilnost sa Windows OS
+-Prevodjenje petlji(while) 
+-Importable ASCII table file
+-Izuzetci u slucaju lose formulisanog Brainfuck koda
+-User input 
+
+Podela:
+Mihajlo Savic - Pribavljivanje koda iz vise datoteka, Prevodjenje petlji(while)
+Milos Jevtic - Importable ASCII table file, User input, Prevodjenje variable  
+Iva Stojanovic - Osnovne matematicke operacije(sabiranje i oduzimanje do 2 elementa), Kompatibilnost sa Windows OS, Izuzetci u slucaju lose formulisanog Brainfuck koda
+
