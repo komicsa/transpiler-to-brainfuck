@@ -1,3 +1,5 @@
+
+
 -Prevodjenje variabli 
 -Pribavljanje koda iz vise datoteka 
 -Osnovne matematicke operacije(Sabiranje i oduzimanje do 2 elementa)
@@ -11,3 +13,4 @@ Mihajlo Savic - Pribavljivanje koda iz vise datoteka, Prevodjenje petlji(while)
 Milos Jevtic -  User input, Prevodjenje variable  
 Iva Stojanovic - Osnovne matematicke operacije(sabiranje i oduzimanje do 2 elementa), Kompatibilnost sa Windows OS, Izuzetci u slucaju lose formulisanog Brainfuck koda
 
+fojgidfjgifjdig
