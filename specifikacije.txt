@@ -5,7 +5,7 @@
 -Prevodjenje petlji(while) 
 -Importable ASCII table file
 -Izuzetci u slucaju lose formulisanog Brainfuck koda
--User input 
+-User inputs 
 
 Podela:
 Mihajlo Savic - Pribavljivanje koda iz vise datoteka, Prevodjenje petlji(while)
