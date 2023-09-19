@@ -1,10 +1,9 @@
 MINIMUM REQ: Transpilovanje Brainfuck osnovnih funkcija i koda u python(+,-,.,,,[,],), kompatibilnost sa Windows OS
 
 -Citanje .bf fileova 
--Osnovne matematicke operacije(Sabiranje i oduzimanje do 2 elementa)
 -Error detection
 
 Podela:
-Mihajlo Savic -  Prevodjenje Brainfuck koda u Python
-Milos Jevtic -  Error detection
-Iva Stojanovic - Citanje/parsiranje bf. fileova
+(notincluded)Mihajlo Savic -  While petlja
+Milos Jevtic -  Transpilovanje iz bf. fileova u python kod
+Iva Stojanovic - Citanje/parsiranje bf. fileova, Error detection
