@@ -1,16 +1,10 @@
+MINIMUM REQ: Transpilovanje Brainfuck osnovnih funkcija i koda u python(+,-,.,,,[,],), kompatibilnost sa Windows OS
 
-
--Prevodjenje variabli 
--Pribavljanje koda iz vise datoteka 
+-Citanje .bf fileova 
 -Osnovne matematicke operacije(Sabiranje i oduzimanje do 2 elementa)
--Kompatibilnost sa Windows OS
--Prevodjenje petlji(while) 
--Izuzetci u slucaju lose formulisanog Brainfuck koda
--User inputs 
+-Error detection
 
 Podela:
-Mihajlo Savic - Pribavljivanje koda iz vise datoteka, Prevodjenje petlji(while)
-Milos Jevtic -  User input, Prevodjenje variable  
-Iva Stojanovic - Osnovne matematicke operacije(sabiranje i oduzimanje do 2 elementa), Kompatibilnost sa Windows OS, Izuzetci u slucaju lose formulisanog Brainfuck koda
-
-fojgidfjgifjdig
+Mihajlo Savic -  Prevodjenje Brainfuck koda u Python
+Milos Jevtic -  Error detection
+Iva Stojanovic - Citanje/parsiranje bf. fileova
