@@ -1,9 +1,12 @@
 MINIMUM REQ: Transpilovanje Brainfuck osnovnih funkcija i koda u python(+,-,.,,,[,],), kompatibilnost sa Windows OS
 
--Citanje .bf fileova 
+Optional req:
+-While loop
 -Error detection
 
+
+
 Podela:
-(notincluded)Mihajlo Savic -  While petlja
-Milos Jevtic -  Transpilovanje iz bf. fileova u python kod
-Iva Stojanovic - Citanje/parsiranje bf. fileova, Error detection
+Mihajlo Savic -  BrainSTA???(while loop prebacen Ivi jer ovaj ode u Bec)
+Milos Jevtic -  Error detection, kompatibilnost sa Windows OS, Gitmaster(the komiter of komits) 
+Iva Stojanovic - Transpilovanje osnovnih funkcija i koda u python, while loop
