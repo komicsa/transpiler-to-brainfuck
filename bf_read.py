@@ -7,7 +7,10 @@ with open("brainfuck.bf") as file:
     for char in line:
         if char in operators:
             code += char
+        else:
+            print(f'greska')
+            exit(1)
 
-f = open('initOutput.txt', 'w')    
+f = open('initOutput.txt', 'w')
 f.write(code)
 f.close()
