@@ -2,6 +2,8 @@
 #++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
 #"""
 
+from Errordetection import *
+
 operators = ['<', '>', '+', '-', '[', ']', '.', ',']
 brainfuck_code = []
 
@@ -14,6 +16,8 @@ with open("brainfuck.bf") as file:
         else:
             print(f'greska')
             exit(1)
+
+zagradeIspravne = proveraZagrade(brainfuck_code)
 
 python_code = []
 python_code.append("a = [0]*30000\n")
@@ -62,14 +66,17 @@ def bf_transp():
             python_code.append('\tbreak\n')
             tab -= 1
 
-
-bf_transp()
 file1 = open("./python_code.py", "w")
 
-for command in python_code:
-    file1.write(command)
+if(zagradeIspravne==True):
+    bf_transp()
 
+    for command in python_code:
+        file1.write(command)
+else:
+    file1.write("neispravan kod")
 file1.close()
+
 
 #petlje
 #potencijalna provera gresaka
