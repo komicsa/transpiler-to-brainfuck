@@ -1,6 +1,20 @@
-brainfuck_code = """
-++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
-"""
+#brainfuck_code = """
+#++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+#"""
+
+operators = ['<', '>', '+', '-', '[', ']', '.', ',']
+brainfuck_code = []
+
+with open("brainfuck.bf") as file:
+  lines = file.readlines()
+  for line in lines:
+    for char in line:
+        if char in operators:
+            brainfuck_code += char
+        else:
+            print(f'greska')
+            exit(1)
+
 python_code = []
 python_code.append("a = [0]*30000\n")
 python_code.append("ptr = 0\n")
