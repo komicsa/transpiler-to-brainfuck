@@ -7,6 +7,6 @@ Optional req:
 
 
 Podela:
-Mihajlo Savic - /
-Milos Jevtic -  Error detection, kompatibilnost sa Windows OS, Gitmaster 
+Mihajlo Savic - While loop
+Milos Jevtic -  Error detection, kompatibilnost sa Windows OS, Github 
 Iva Stojanovic - Transpilovanje osnovnih funkcija i koda u python, while loop
