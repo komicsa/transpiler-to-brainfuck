@@ -7,6 +7,6 @@ Optional req:
 
 
 Podela:
-Mihajlo Savic -  BrainSTA???(while loop prebacen Ivi jer ovaj ode u Bec)
-Milos Jevtic -  Error detection, kompatibilnost sa Windows OS, Gitmaster(the komiter of komits) 
+Mihajlo Savic - /
+Milos Jevtic -  Error detection, kompatibilnost sa Windows OS, Gitmaster 
 Iva Stojanovic - Transpilovanje osnovnih funkcija i koda u python, while loop
