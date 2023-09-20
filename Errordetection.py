@@ -1,14 +1,26 @@
-broj_otvorenih_zagrada = 0
-broj_zatvorenih_zagrada = 0
 
-with open("sum_func.py") as file:
-    for line in file:
+
+def proveraZagrade(brainfuck_kod):
+    stack = []
+
+    kod_je_ispravan = True
+
+    for line in brainfuck_kod:
         for char in line:
             if char == '[':
-                broj_otvorenih_zagrada += 1
+                stack.append("[")
             elif char == ']':
-                broj_zatvorenih_zagrada += 1
+                if len(stack) == 0:
+                    print("Proverite sve zagrade")
+                    kod_je_ispravan = False
+                    return kod_je_ispravan
+                stack.pop()
 
-if broj_otvorenih_zagrada != broj_zatvorenih_zagrada:
-    print("Doslo je do greske proverite da li su sve zagrade pravilno napisane.")
-    exit(1)
+    is_empty = len(stack) == 0
+
+    if is_empty == True:
+        kod_je_ispravan = True
+    else:
+        kod_je_ispravan = False
+
+    return kod_je_ispravan
